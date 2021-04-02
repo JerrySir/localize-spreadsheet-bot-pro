@@ -10,17 +10,17 @@ Supports
 
 ## Example
 Given a Google Spreadsheet like this:  
-![Spreadsheet example](https://github.com/xavierha/localize-with-spreadsheet/raw/master/doc/spreadsheet-example.png)
+![Spreadsheet example](https://github.com/JerrySir/localize-with-spreadsheet-pro/raw/master/doc/spreadsheet-example.png)
 
 Right now only good for android XML files where there comments with xxxx.xml and they will be split automatically.
 
 The tool fetch the spreadsheet and write the result to a file in the Android or iOS format:
 
-![Result android](https://github.com/xavierha/localize-with-spreadsheet/raw/master/doc/result-android.png) ![Result iOS](https://github.com/xavierha/localize-with-spreadsheet/raw/master/doc/result-ios.png)
+![Result android](https://github.com/JerrySir/localize-with-spreadsheet-pro/raw/master/doc/result-android.png) ![Result iOS](https://github.com/JerrySir/localize-with-spreadsheet-pro/raw/master/doc/result-ios.png)
 
 Create a file update-localization.js
 
-	var Localize = require("localize-with-spreadsheet");
+	var Localize = require("localize-with-spreadsheet-pro");
     var transformer = Localize.fromGoogleSpreadsheet("0Aq6WlQdq71FydDZlaWdmMEUtc2tUb1k2cHRBS2hzd2c", '*');
     transformer.setKeyCol('KEY');
 
@@ -33,7 +33,8 @@ Create a file update-localization.js
     transformer.save("values/strings.xml", { valueCol: "NL", format: "android" }, function(){
             transformer.programSplit ("values/" + "strings.xml", "values", "ZH");
     });
-
+    
+    // for i18n.js
     transformer.save('values/en.js', { valueCol: 'EN', format: 'js' });
 
 Run it with
