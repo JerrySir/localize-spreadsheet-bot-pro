@@ -2,10 +2,10 @@
 
 
 ## Installation
-	npm install localize-gsheet-pro
+	npm install localize-with-spreadsheet-pro
 
 Supports
-1. iOS, Android, js, 
+1. iOS, Android, json, js(i18n import file) 
 2. file splits from inline comments (only supports android)
 
 ## Example
@@ -33,6 +33,8 @@ Create a file update-localization.js
     transformer.save("values/strings.xml", { valueCol: "NL", format: "android" }, function(){
             transformer.programSplit ("values/" + "strings.xml", "values", "ZH");
     });
+
+    transformer.save('values/en.js', { valueCol: 'EN', format: 'js' });
 
 Run it with
 

@@ -1,11 +1,11 @@
 {
-  "name": "localize-gsheet-pro",
-  "version": "1.2.4",
-  "description": "Create a localization file in Android or iOS format from a Google Spreadsheet",
-  "author": "jobhesk@gmail.com",
+  "name": "localize-spreadsheet-bot-pro",
+  "version": "1.0.0",
+  "description": "Create a localization file in Android iOS and js format from a Google Spreadsheet",
+  "author": "https://github.com/JerrySir",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ONode/localize-spreadsheet-bot.git"
+    "url": "git+https://github.com/JerrySir/localize-spreadsheet-bot-pro.git"
   },
   "main": "index.js",
   "dependencies": {
