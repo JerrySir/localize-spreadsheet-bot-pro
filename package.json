@@ -1,6 +1,6 @@
 {
   "name": "localize-with-spreadsheet-pro",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Create a localization file in Android iOS and js format from a Google Spreadsheet",
   "author": "https://github.com/JerrySir",
   "repository": {

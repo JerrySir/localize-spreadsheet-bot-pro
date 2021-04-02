@@ -10,13 +10,13 @@ Supports
 
 ## Example
 Given a Google Spreadsheet like this:  
-![Spreadsheet example](https://github.com/JerrySir/localize-with-spreadsheet-pro/raw/master/doc/spreadsheet-example.png)
+![Spreadsheet example](https://github.com/JerrySir/localize-spreadsheet-bot-pro/raw/master/doc/spreadsheet-example.png)
 
 Right now only good for android XML files where there comments with xxxx.xml and they will be split automatically.
 
 The tool fetch the spreadsheet and write the result to a file in the Android or iOS format:
 
-![Result android](https://github.com/JerrySir/localize-with-spreadsheet-pro/raw/master/doc/result-android.png) ![Result iOS](https://github.com/JerrySir/localize-with-spreadsheet-pro/raw/master/doc/result-ios.png)
+![Result android](https://github.com/JerrySir/localize-spreadsheet-bot-pro/raw/master/doc/result-android.png) ![Result iOS](https://github.com/JerrySir/localize-spreadsheet-bot-pro/raw/master/doc/result-ios.png)
 
 Create a file update-localization.js
 
